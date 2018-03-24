@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="text_nombre">Salvador Campos</string>
+    <string name="text_carrera">Ing. Informática</string>
+    <string name="text_fb">/salvador.campos.921</string>
+    <string name="text_number">71647405</string>
+    <string name="text_github">/salvadorc94</string>
+    <string name="text_correo">secg.1994@gmail.com</string>
+    <string name="text_bottom">Powered by Salvador Campos</string>
+</resources>
