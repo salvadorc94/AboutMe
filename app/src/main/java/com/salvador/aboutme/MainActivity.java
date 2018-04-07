@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 "\nCorreo/Email: "+((TextView)findViewById(R.id.text_correo)).getText().toString());
 
         if (sendIntent.resolveActivity(getPackageManager()) != null){
-            startActivity(sendIntent);
+            startActivity(Intent.createChooser(sendIntent,"Compartir/Share"));
         }
+
     }
 }
